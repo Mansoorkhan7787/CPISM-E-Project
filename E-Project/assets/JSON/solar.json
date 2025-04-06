@@ -1,0 +1,114 @@
+[
+    {
+        "id" : 101,
+        "name" : "Solar Light",
+        "price" : "1,999.00",
+        "sold" : "31+ sold",
+        "discription" : "Solar Lights Outdor Waterproof Motion Sensor Outdor Light ",
+        "image" : "./E-Project/assets/images/solar-image/solar1.png " 
+    },
+    {
+        "id" : 102,
+        "name" : "Solar Light",
+        "price" : "2,449.00",
+        "sold" : "45+ sold",
+        "discription" : " Addlon 54(48+6) FT Solar String Lights Waterproof,Pations lights Solar Powered With Remote",
+        "image" : "./E-Project/assets/images/solar-image/solar2.png " 
+    },
+    {
+        "id" : 103,
+        "name" : "Solar Light",
+        "price" : "999.00",
+        "sold" : "51+ sold",
+        "discription" : "Solar Lights Outdor -2700/4000/6000K 3 Model IP65 Waterproof,Solar light  ",
+        "image" : "./E-Project/assets/images/solar-image/solar3.png " 
+    },
+    {
+        "id" : 104,
+        "name" : "Solar Light",
+        "price" : "749.00",
+        "sold" : "28+ sold",
+        "discription" : "IkeeRuic Solar Light Outdor ,Solar touch Light With Flickering Flam For Garden ",
+        "image" : "./E-Project/assets/images/solar-image/solar4.png " 
+    },
+    {
+        "id" : 105,
+        "name" : "Solar Light",
+        "price" : "1,499.00",
+        "sold" : "12+ sold",
+        "discription" : "Solar Street Light 7000K 800000LM Auto On/Of Dusk to Dawn Ip67 Waterproof Motion ",
+        "image" : "./E-Project/assets/images/solar-image/solar5.png " 
+    },
+    {
+        "id" : 106,
+        "name" : "Solar Light",
+        "price" : "5,499.00",
+        "sold" : "17+ sold",
+        "discription" : "Solar light Outdor,Solar Street light With Dual Solar Panel 65000K Dusk to Down ",
+        "image" : "./E-Project/assets/images/solar-image/solar6.png " 
+    },
+    {
+        "id" : 107,
+        "name" : "Solar Light",
+        "price" : "1,599.00",
+        "sold" : "22+ sold",
+        "discription" : "JACKYLED solar lighht outdoor With Motion Sensor ,113LED Cool White Solar Flood Light Dusk to Down ",
+        "image" : "./E-Project/assets/images/solar-image/solar7.png " 
+    },
+    {
+        "id" : 108,
+        "name" : "Solar Light",
+        "price" : "999.00",
+        "sold" : "13+ sold",
+        "discription" : "Collapsibe Portable LED Camping Lantern Lightweight ",
+        "image" : "./E-Project/assets/images/solar-image/solar8.png " 
+    },
+    {
+        "id" : 109,
+        "name" : "Solar Light",
+        "price" : "2,999.00",
+        "sold" : "23+ sold",
+        "discription" : "JACKYLED 1000 Lumens 299 LED Solar lighht outdoor Bright Solar Dusk ",
+        "image" : "./E-Project/assets/images/solar-image/solar9.png " 
+    },
+    {
+        "id" : 1010,
+        "name" : "Solar Light",
+        "price" : "999.00",
+        "sold" : "10+ sold",
+        "discription" : "addlon 100FT Solar String Lights Outdoor With Remote ",
+        "image" : "./E-Project/assets/images/solar-image/solar10.png " 
+    },
+    {
+        "id" : 111,
+        "name" : "Solar Light",
+        "price" : "3,999.00",
+        "sold" : "15+ sold",
+        "discription" : "AmeriTop Solar Light Outdoor,2 Pack LED Heigh Brightness ",
+        "image" : "./E-Project/assets/images/solar-image/solar11.png " 
+    },
+    {
+        "id" : 112,
+        "name" : "Solar Light",
+        "price" : "1,499.00",
+        "sold" : "19+ sold",
+        "discription" : "Solar Light Outdoor Solar Security Light Solar Sensor ",
+        "image" : "./E-Project/assets/images/solar-image/solar12.png " 
+    },
+    {
+        "id" : 113,
+        "name" : "Solar Light",
+        "price" : "1,999.00",
+        "sold" : "21+ sold",
+        "discription" : "Solar Light Bulb With Indor Home And Chicken Coop ",
+        "image" : "./E-Project/assets/images/solar-image/solar13.png " 
+    },
+    {
+        "id" : 114,
+        "name" : "Solar Light",
+        "price" : "1,499.00",
+        "sold" : "27+ sold",
+        "discription" : "NIORSUN Solar Indoor Light 3 Color Dimmable ",
+        "image" : "./E-Project/assets/images/solar-image/solar14.png " 
+    }
+]

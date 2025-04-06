@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claim Warranty </title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./E-Project/assets/Bootstrap/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="./E-Project/assets/css/claim.css">
+</head>
+<body>
+    <!-- Navbar -->
+     
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand navbar-brand-custom" href="#">
+                <img src="./E-Project/assets/images/home-image/bulb.png" alt="Company Logo" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-link-custom dropdown-toggle" href="#" id="servicesDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-custom" aria-labelledby="servicesDropdown">
+                            <li><a class="dropdown-item dropdown-item-custom" href="./indor.html">Indoor Lights</a></li>
+                            <li><a class="dropdown-item dropdown-item-custom" href="./outdor.html">Outdoor Lights</a></li>
+                            <li><a class="dropdown-item dropdown-item-custom" href="./wall-light.html">Wall Lights</a></li>
+                            <li><a class="dropdown-item dropdown-item-custom" href="./table-lamp.html">Table Lamps</a></li>
+                            <li><a class="dropdown-item dropdown-item-custom" href="./solar.html">Solar Lights</a></li>
+                            <li><a class="dropdown-item dropdown-item-custom" href="./kitchen.html">Kitchen Lights</a></li>
+                            <li><a class="dropdown-item dropdown-item-custom" href="./resturant.html">Restaurant Lights</a></li>
+                            <li><a class="dropdown-item dropdown-item-custom" href="./kids.html">Kids Lighting</a></li>
+                            <li><a class="dropdown-item dropdown-item-custom" href="./sport.html">Sports Lights</a></li>
+                            <li><a class="dropdown-item dropdown-item-custom" href="./decuration.html">Decoration Lights</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="/gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="./feedback.html">Feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="./contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom active" href="./claim.html">Claim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="./login.html">
+                            <i class="bi bi-person-circle"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link nav-link-custom subscribe-btn-custom">Subscribe Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="form-container">
+        <h2 class="form-title">Claim Warranty</h2>
+        <p class="mb-4 text-center">Complete the form to start warranty claim process. Make sure to give accurate information and clear Product Images.</p>
+
+        <form class="warranty-form">
+       
+            <div class="mb-3">
+                <input type="text" class="form-control form-control-custom" id="name" placeholder="Name" required>
+            </div>
+            
+            <div class="phone-container">
+                <select class="form-select form-select-custom" id="countryCode">
+                    <option value="+92">🇵🇰 +92</option>
+                    <option value="+91">🇮🇳 +91</option>
+                    <option value="+1">UAE +97</option>
+                </select>
+                <input type="tel" class="form-control form-control-custom" id="phone" placeholder="Phone Number" required>
+            </div>
+        
+            <div class="date-container">
+                <input type="text" class="form-control form-control-custom" id="month" placeholder="MM" maxlength="2" required>
+                <input type="text" class="form-control form-control-custom" id="day" placeholder="DD" maxlength="2" required>
+                <input type="text" class="form-control form-control-custom" id="year" placeholder="YYYY" maxlength="4" required>
+            </div>
+            
+            
+            <div class="mb-3">
+                <input type="text" class="form-control form-control-custom" id="orderNumber" placeholder="Order Number" required>
+            </div>
+            
+            
+            <div class="mb-3">
+                <textarea class="form-control form-control-custom form-textarea" id="details" placeholder="Write Product Detail and explain the issue" required></textarea>
+            </div>
+            
+        
+            <div class="mb-3">
+                <label class="file-upload-custom">
+                    <input type="file" id="uploadFile" required>
+                    <span><i class="bi bi-paperclip me-2"></i>Upload Product Images</span>
+                </label>
+            </div>
+            
+            
+            <button type="submit" class="submit-btn-custom">Submit Claim</button>
+        </form>
+    </div>
+
+    <footer class="bg-dark text-white pt-4 pb-2 ">
+      <div class="container">
+          <div class="row">
+
+              <div class="col-md-4 ">
+                  <h5>Contact Us</h5>
+                  <p>Empowering your journey with innovative solutions and bright ideas. Stay connected with us!</p>
+              </div>
+
+              <div class="col-md-4 ">
+                  <h5>Quick Links</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                      <li><a href="#" class="text-white text-decoration-none">About Us</a></li>
+                      <li><a href="#" class="text-white text-decoration-none">Gallery</a></li>
+                      <li><a href="#" class="text-white text-decoration-none">collection</a></li>
+                      <li><a href="#" class="text-white text-decoration-none">Feedback</a></li>
+                  </ul>
+              </div>
+
+              <div class="col-md-4 ">
+                  <h5>Claim Warranty</h5>
+                  <p><i class="bi bi-telephone me-2 "></i> +92 123 456 789</p>
+                  <p><i class="bi bi-envelope me-2"></i> info@brightworld.com</p>
+                  <h5>Follow Us</h5>
+                  <a href="#" class="social-icon text-white me-3" data-color="#3b5998"><i
+                          class="bi bi-facebook"></i></a>
+                  <a href="#" class="social-icon text-white me-3" data-color="#1DA1F2"><i
+                          class="bi bi-twitter"></i></a>
+                  <a href="#" class="social-icon text-white me-3" data-color="#E4405F"><i
+                          class="bi bi-instagram"></i></a>
+                  <a href="#" class="social-icon text-white me-3" data-color="#0A66C2"><i
+                          class="bi bi-linkedin"></i></a>
+                  <a href="tel:+92123456789" class="social-icon text-white me-3" data-color="#25D366"><i
+                          class="bi bi-telephone"></i></a>
+              </div>
+          </div>
+
+      </div>
+      <div class="text-center">
+        <p class="mb-0">© 2025 Bright World. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+    
+    <script src="./E-Project/assets/Bootstrap/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        
+        document.getElementById('month').addEventListener('input', function(e) {
+            if (this.value.length === 2) {
+                document.getElementById('day').focus();
+            }
+        });
+        
+        document.getElementById('day').addEventListener('input', function(e) {
+            if (this.value.length === 2) {
+                document.getElementById('year').focus();
+            }
+        });
+        
+        
+        document.querySelector('.warranty-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Your warranty claim has been submitted successfully! We will contact you soon.');
+            this.reset();
+        });
+
+        document.querySelectorAll('.social-icon').forEach(icon => {
+            icon.addEventListener('mouseover', function () {
+                this.style.setProperty('--hover-color', this.getAttribute('data-color'));
+            });
+        });
+    </script>
+</body>
+</html>

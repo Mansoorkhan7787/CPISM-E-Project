@@ -1,0 +1,114 @@
+[
+    {
+        "id" : 101,
+        "name" : "Kids Lighting",
+        "price" : "499.00",
+        "sold" : "14+ bought in past month",
+        "discription" : "Dawnrise Night Light Plug Into Wall Color Changer Plug  ",
+        "image" : "./E-Project/assets/images/kids-image/kid1.png  " 
+    },
+    {
+        "id" : 102,
+        "name" : "Kidst Lighting",
+        "price" : "699.00",
+        "sold" : "12+ bought in past month",
+        "discription" : "Silicon Unicorn Night Light Color Changer  LED Lamp ",
+        "image" : " ./E-Project/assets/images/kids-image/kid2.png " 
+    },
+    {
+        "id" : 103,
+        "name" : "Kids Lighting",
+        "price" : "999.00",
+        "sold" : "17+ bought in past month",
+        "discription" : "LOHAS LED Plig In Night Light For Kid 3D Cute Puppy  ",
+        "image" : " ./E-Project/assets/images/kids-image/kid3.png " 
+    },
+    {
+        "id" : 104,
+        "name" : "Kidst Lighting",
+        "price" : "1,299.00",
+        "sold" : "21+ bought in past month",
+        "discription" : "Moon Light - Floating Wall Lamp For Kid Bedroom ",
+        "image" : " ./E-Project/assets/images/kids-image/kid4.png " 
+    },
+    {
+        "id" : 105,
+        "name" : "Kids Lighting",
+        "price" : "19,999.00",
+        "sold" : "26+ bought in past month",
+        "discription" : "Spidey Kids Pendant LED light For Kid Bedroom ",
+        "image" : "./E-Project/assets/images/kids-image/kid5.png  " 
+    },
+    {
+        "id" : 106,
+        "name" : "Kidst Lighting",
+        "price" : "1,599.00",
+        "sold" : "11+ bought in past month",
+        "discription" : "Solar Chime Ball Color Changer Ball For Kid ",
+        "image" : "./E-Project/assets/images/kids-image/kid13.png  " 
+    },
+    {
+        "id" : 107,
+        "name" : "Kids Lighting",
+        "price" : "1,099.00",
+        "sold" : "09+ bought in past month",
+        "discription" : "LED Kid Lamp,Mini Car Table Lamp LED Night Light ",
+        "image" : " ./E-Project/assets/images/kids-image/kid14.png " 
+    },
+    {
+        "id" : 108,
+        "name" : "Kidst Lighting",
+        "price" : "1,999.00",
+        "sold" : "24+ bought in past month",
+        "discription" : "Kids Table Lamp  With Linen Nightstabe For reading ",
+        "image" : " ./E-Project/assets/images/kids-image/kid8.png " 
+    },
+    {
+        "id" : 109,
+        "name" : "Kids Lighting",
+        "price" : "2,499.00",
+        "sold" : "19+ bought in past month",
+        "discription" : "13 Colors Dimmable Night Lamp For Bedroom ",
+        "image" : "./E-Project/assets/images/kids-image/kid9.png  " 
+    },
+    {
+        "id" : 110,
+        "name" : "Kidst Lighting",
+        "price" : "2,999.00",
+        "sold" : "32+ bought in past month",
+        "discription" : "Northern Galaxy Light Aurora Projector With 33 Color ",
+        "image" : " ./E-Project/assets/images/kids-image/kid10.png " 
+    },
+    {
+        "id" : 111,
+        "name" : "Kids Lighting",
+        "price" : "5,499.00",
+        "sold" : "23+ bought in past month",
+        "discription" : "Unocorn Lamp For Girls table Lamp For bedroom   ",
+        "image" : " ./E-Project/assets/images/kids-image/kid11.png " 
+    },
+    {
+        "id" : 112,
+        "name" : "Kidst Lighting",
+        "price" : "2,499.00",
+        "sold" : "22+ bought in past month",
+        "discription" : "LED Desk Lamp For Kids With Pen Holder ,Charging Port ",
+        "image" : " ./E-Project/assets/images/kids-image/kid12.png " 
+    },
+    {
+        "id" : 113,
+        "name" : "Kids Lighting",
+        "price" : "1,899.00",
+        "sold" : "25+ bought in past month",
+        "discription" : "Earth Lamp For Kids Color Changing LED Light ",
+        "image" : "./E-Project/assets/images/kids-image/kid6.png  " 
+    },
+    {
+        "id" : 114,
+        "name" : "Kidst Lighting",
+        "price" : "2,999.00",
+        "sold" : "28+ bought in past month",
+        "discription" : "Meloki Jelly Fish lamp With 6 Color Electronic Jellyfish ",
+        "image" : " ./E-Project/assets/images/kids-image/kid7.png " 
+    }
+]

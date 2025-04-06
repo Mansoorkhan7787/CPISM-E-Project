@@ -1,0 +1,114 @@
+[
+    {
+        "id" : 101,
+        "name" : "Kitchen Light",
+        "price" : "3,999.00",
+        "sold" : "7+ bought in past month",
+        "discription" : "6 Light Chandeliers Light Fixture Vintage Crystal Glass Shade For Kitchen And Bedroom.. ",
+        "image" : "./E-Project/assets/images/kitchen-image/kitchen1.png " 
+    },
+    {
+        "id" : 102,
+        "name" : "Kitchen Light",
+        "price" : "1,449.00",
+        "sold" : "5+ bought in past month",
+        "discription" : "Industrial Pendant  Lighting Modern Clear Glass Shade.. ",
+        "image" : "./E-Project/assets/images/kitchen-image/kitchen2.png " 
+    },
+    {
+        "id" : 103,
+        "name" : "Kitchen Light",
+        "price" : "2,999.00",
+        "sold" : "9+ bought in past month",
+        "discription" : "Modern Ceiling Light Fixture Easric Semi Flush Mount Ceiling Light With Fabric Shade.. ",
+        "image" : "./E-Project/assets/images/kitchen-image/kitchen13.png " 
+    },
+    {
+        "id" : 104,
+        "name" : "Kitchen Light",
+        "price" : "999.00",
+        "sold" : "11+ bought in past month",
+        "discription" : "LMS Black Pendant Lights For Kitchen And Island... ",
+        "image" : "./E-Project/assets/images/kitchen-image/kitchen4.png " 
+    },
+    {
+        "id" : 105,
+        "name" : "Kitchen Light",
+        "price" : "3,999.00",
+        "sold" : "8+ bought in past month",
+        "discription" : "4-Lights SemiFlush Mount Ceiling LightRotable Farmhouse ",
+        "image" : "./E-Project/assets/images/kitchen-image/kitchen5.png " 
+    },
+    {
+        "id" : 106,
+        "name" : "Kitchen Light",
+        "price" : "899.00",
+        "sold" : "25+ bought in past month",
+        "discription" : "MYPLUS 16 inch Under Cabinet Lights With Hand Wave... ",
+        "image" : "./E-Project/assets/images/kitchen-image/kitchen6.png " 
+    },
+    {
+        "id" : 107,
+        "name" : "Kitchen Light",
+        "price" : "4,499.00",
+        "sold" : "32+ bought in past month",
+        "discription" : "8PACK LED Flush Ceiling Light Fixture For Modern Kitchen.. ",
+        "image" : "./E-Project/assets/images/kitchen-image/kitchen7.png " 
+    },
+    {
+        "id" : 108,
+        "name" : "Kitchen Light",
+        "price" : "1,499.00",
+        "sold" : "5+ bought in past month",
+        "discription" : "Pendant Lights Kitchen Island With Frosted Glass..",
+        "image" : "./E-Project/assets/images/kitchen-image/kitchen8.png " 
+    },
+    {
+        "id" : 109,
+        "name" : "Kitchen Light",
+        "price" : "2,999.00",
+        "sold" : "11+ bought in past month",
+        "discription" : "Crystal Chandelier Light Fixtures 4-Lights Farmhouse... ",
+        "image" : "./E-Project/assets/images/kitchen-image/kitchen9.png " 
+    },
+    {
+        "id" : 110,
+        "name" : "Kitchen Light",
+        "price" : "5,499.00",
+        "sold" : "15+ bought in past month",
+        "discription" : "6-light Modern Farmhouse Black Candelier Dinning Room.. ",
+        "image" : "./E-Project/assets/images/kitchen-image/kitchen10.png " 
+    },
+    {
+        "id" : 111,
+        "name" : "Kitchen Light",
+        "price" : "5,999.00",
+        "sold" : "13+ bought in past month",
+        "discription" : "Farmhouse Dinning Room Light Wood Kitchen Island Lighting.. ",
+        "image" : "./E-Project/assets/images/kitchen-image/kitchen11.png " 
+    },
+    {
+        "id" : 112,
+        "name" : "Kitchen Light",
+        "price" : "1,499.00",
+        "sold" : "17+ bought in past month",
+        "discription" : "2-Pack Flesh Mount LED Celling light Ultra Bright 3200LM.. ",
+        "image" : "./E-Project/assets/images/kitchen-image/kitchen12.png " 
+    },
+    {
+        "id" : 113,
+        "name" : "Kitchen Light",
+        "price" : "1,999.00",
+        "sold" : "9+ bought in past month",
+        "discription" : "Brushed Nickel Semi Flush Mount Ceilling Light... ",
+        "image" : "./E-Project/assets/images/kitchen-image/kitchen3.png " 
+    },
+    {
+        "id" : 114,
+        "name" : "Kitchen Light",
+        "price" : "999.00",
+        "sold" : "12+ bought in past month",
+        "discription" : "FAITHSAIL 2FT LED Light Fixture,2 Foot LED Kitchen Light With Woodern Frame ",
+        "image" : "./E-Project/assets/images/kitchen-image/kitchen14.png " 
+    }
+]

@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Gallery</title>
+ 
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href=".//E-Project/assets/Bootstrap/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./E-Project/assets/css/gallery.css">
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand navbar-brand-custom" href="#">
+                <img src="./E-Project/assets/images/home-image/bulb.png" alt="" srcset="">
+            </a> -->
+            <!-- <a class="navbar-brand navbar-brand-custom" href="#">
+                <img src="./E-Project/assets/images/home-image/bulb.png" alt="Company Logo" 
+                     class="img-fluid" 
+                     style="max-height: 190px; width: 190px;">
+            </a> -->
+            <a class="navbar-brand navbar-brand-custom" href="#">
+                <img src="./E-Project/assets/images/home-image/bulb.png" alt="Company Logo" 
+                     class="img-fluid" 
+                     style="height: auto;"
+                     style-xs="width: 100px;"
+                     style-sm="width: 120px;"
+                     style-md="width: 140px;"
+                     style-lg="width: 160px;"
+                     style-xl="width: 190px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-link-custom dropdown-toggle" href="#" id="servicesDropdown" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-custom" aria-labelledby="servicesDropdown">
+                            <li><a class="dropdown-item dropdown-item-custom" href="./indor.html">Indoor Lights</a></li>
+                            <li><a class="dropdown-item dropdown-item-custom" href="./outdor.html">Outdoor Lights</a></li>
+                            <li><a class="dropdown-item dropdown-item-custom" href="./wall-light.html">Wall Lights</a></li>
+                            <li><a class="dropdown-item dropdown-item-custom" href="./table-lamp.html">Table Lamps</a></li>
+                            <li><a class="dropdown-item dropdown-item-custom" href="./solar.html">Solar Lights</a></li>
+                            <li><a class="dropdown-item dropdown-item-custom" href="./kitchen.html">Kitchen Lights</a></li>
+                            <li><a class="dropdown-item dropdown-item-custom" href="./resturant.html">Restaurant Lights</a></li>
+                            <li><a class="dropdown-item dropdown-item-custom" href="./kids.html">Kids Lighting</a></li>
+                            <li><a class="dropdown-item dropdown-item-custom" href="./sport.html">Sports Lights</a></li>
+                            <li><a class="dropdown-item dropdown-item-custom" href="./decuration.html">Decoration Lights</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="./feedback.html">Feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="./contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom active" href="./claim.html">Claim </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="./login.html">
+                            <i class="bi bi-person-circle"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link nav-link-custom subscribe-btn-custom">Subscribe Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Swiper -->
+    <!-- <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"> <img src="./E-Project/assets/images/gallery-image/s1.png" alt="" srcset=""> </div>
+          <div class="swiper-slide"><img src="./E-Project/assets/images/gallery-image/s2.png" alt="" srcset=""></div>
+          <div class="swiper-slide"><img src="./E-Project/assets/images/gallery-image/s3.png" alt="" srcset=""></div>
+          <div class="swiper-slide"><img src="./E-Project/assets/images/gallery-image/s4.png" alt="" srcset=""></div>
+          <div class="swiper-slide"><img src="./E-Project/assets/images/gallery-image/s5.png" alt="" srcset=""></div>
+          <div class="swiper-slide"><img src="./E-Project/assets/images/gallery-image/s6.png" alt="" srcset=""></div>
+          <div class="swiper-slide"><img src="./E-Project/assets/images/gallery-image/s7.png" alt="" srcset=""></div>
+          <div class="swiper-slide"><img src="./E-Project/assets/images/gallery-image/s8.png" alt="" srcset=""></div>
+          <div class="swiper-slide"><img src="./E-Project/assets/images/gallery-image/s3.png" alt="" srcset=""></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+        <div class="autoplay-progress">
+          <svg viewBox="0 0 48 48">
+            <circle cx="24" cy="24" r="20"></circle>
+          </svg>
+          <span></span>
+        </div>
+      </div> -->
+      <header class="py-5">
+        <div class="container">
+            <h1>About Bright World</h1>
+            <p>Illuminating Your Life With Quality Lighting Solutions</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="filter-buttons text-center">
+            <button onclick="filterSelection('all')">All</button>
+            <button onclick="filterSelection('fashion')">Fashion</button>
+            <button onclick="filterSelection('portrait')">Portrait</button>
+            <button onclick="filterSelection('juventine')">Juventine</button>
+        </div>
+        
+        <div class="row gallery">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g1.png " class="filter fashion portrait" alt="Image 1">
+                    <div class="image-caption">
+                        <div class="image-title">Girl With Sunglasses</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g2.png" class="filter fashion portrait" alt="Image 2">
+                    <div class="image-caption">
+                        <div class="image-title">Rotter's Girlfriend</div>
+                        <div class="image-tags">FASHION / JUVENTINE</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src=" ./E-Project/assets/images/gallery-image/g3.png" class="filter juventine portrait" alt="Image 3">
+                    <div class="image-caption">
+                        <div class="image-title">Rotto Women</div>
+                        <div class="image-tags">JUVENTINE / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g4.png" class="filter fashion portrait" alt="Image 4">
+                    <div class="image-caption">
+                        <div class="image-title">Street Life</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g5.png" class="filter fashion portrait" alt="Image 5">
+                    <div class="image-caption">
+                        <div class="image-title">Audiobuscles, 2016</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g6.png" class="filter fashion portrait" alt="Image 6">
+                    <div class="image-caption">
+                        <div class="image-title">Call a War</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g7.png" class="filter fashion portrait" alt="Image 7">
+                    <div class="image-caption">
+                        <div class="image-title">Beautiful Brunette</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g8.png" class="filter fashion portrait" alt="Image 8">
+                    <div class="image-caption">
+                        <div class="image-title">Morrow Juventine</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g9.png" class="filter juventine portrait" alt="Image 9">
+                    <div class="image-caption">
+                        <div class="image-title">Girl With Sunglasses</div>
+                        <div class="image-tags">JUVENTINE / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g10.png" class="filter fashion portrait" alt="Image 10">
+                    <div class="image-caption">
+                        <div class="image-title">Street Life</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g11.png" class="filter fashion portrait" alt="Image 11">
+                    <div class="image-caption">
+                        <div class="image-title">Rotter's Girlfriend</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g12.png" class="filter juventine portrait" alt="Image 12">
+                    <div class="image-caption">
+                        <div class="image-title">Rotto Women</div>
+                        <div class="image-tags">JUVENTINE / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g13.png" class="filter fashion portrait" alt="Image 13">
+                    <div class="image-caption">
+                        <div class="image-title">Beautiful Brunette</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g14.png" class="filter fashion portrait" alt="Image 14">
+                    <div class="image-caption">
+                        <div class="image-title">Morrow Juventine</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g15.png" class="filter juventine portrait" alt="Image 15">
+                    <div class="image-caption">
+                        <div class="image-title">Girl With Sunglasses</div>
+                        <div class="image-tags">JUVENTINE / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g16.png" class="filter fashion portrait" alt="Image 16">
+                    <div class="image-caption">
+                        <div class="image-title">Street Life</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g17.png" class="filter fashion portrait" alt="Image 17">
+                    <div class="image-caption">
+                        <div class="image-title">Rotter's Girlfriend</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g18.png" class="filter juventine portrait" alt="Image 18">
+                    <div class="image-caption">
+                        <div class="image-title">Rotto Women</div>
+                        <div class="image-tags">JUVENTINE / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g19.png" class="filter fashion portrait" alt="Image 19">
+                    <div class="image-caption">
+                        <div class="image-title">Beautiful Brunette</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g20.png" class="filter fashion portrait" alt="Image 20">
+                    <div class="image-caption">
+                        <div class="image-title">Morrow Juventine</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g21.png" class="filter juventine portrait" alt="Image 21">
+                    <div class="image-caption">
+                        <div class="image-title">Girl With Sunglasses</div>
+                        <div class="image-tags">JUVENTINE / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g22.png" class="filter fashion portrait" alt="Image 22">
+                    <div class="image-caption">
+                        <div class="image-title">Street Life</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g23.png" class="filter fashion portrait" alt="Image 23">
+                    <div class="image-caption">
+                        <div class="image-title">Rotter's Girlfriend</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g24.png" class="filter juventine portrait" alt="Image 24">
+                    <div class="image-caption">
+                        <div class="image-title">Rotto Women</div>
+                        <div class="image-tags">JUVENTINE / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g25.png" class="filter fashion portrait" alt="Image 25">
+                    <div class="image-caption">
+                        <div class="image-title">Beautiful Brunette</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g26.png" class="filter fashion portrait" alt="Image 26">
+                    <div class="image-caption">
+                        <div class="image-title">Morrow Juventine</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g27.png" class="filter juventine portrait" alt="Image 27">
+                    <div class="image-caption">
+                        <div class="image-title">Girl With Sunglasses</div>
+                        <div class="image-tags">JUVENTINE / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g28.png" class="filter fashion portrait" alt="Image 28">
+                    <div class="image-caption">
+                        <div class="image-title">Street Life</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/gallery-image/g29.png" class="filter fashion portrait" alt="Image 29">
+                    <div class="image-caption">
+                        <div class="image-title">Rotter's Girlfriend</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/home-image/home18.png" class="filter juventine portrait" alt="Image 30">
+                    <div class="image-caption">
+                        <div class="image-title">Rotto Women</div>
+                        <div class="image-tags">JUVENTINE / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/home-image/home4.png" class="filter fashion portrait" alt="Image 31">
+                    <div class="image-caption">
+                        <div class="image-title">Beautiful Brunette</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/home-image/home6.png" class="filter fashion portrait" alt="Image 32">
+                    <div class="image-caption">
+                        <div class="image-title">Morrow Juventine</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/home-image/home12.png" class="filter juventine portrait" alt="Image 33">
+                    <div class="image-caption">
+                        <div class="image-title">Girl With Sunglasses</div>
+                        <div class="image-tags">JUVENTINE / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/indor-image/indor14.png" class="filter fashion portrait" alt="Image 34">
+                    <div class="image-caption">
+                        <div class="image-title">Street Life</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="gallery-item">
+                    <img src="./E-Project/assets/images/indor-image/indor20.png" class="filter fashion portrait" alt="Image 35">
+                    <div class="image-caption">
+                        <div class="image-title">Rotter's Girlfriend</div>
+                        <div class="image-tags">FASHION / PORTRAIT</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Footer -->
+</footer> -->
+<footer class="bg-dark text-white pt-4 pb-2 ">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4 ">
+                <h5>feedback</h5>
+                <p>Empowering your journey with innovative solutions and bright ideas. Stay connected with us!</p>
+            </div>
+
+            <div class="col-md-4 ">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">About Us</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Gallery</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">collection</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Feedback</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 ">
+                <h5>Contact Us</h5>
+                <p><i class="bi bi-telephone me-2 "></i> +92 123 456 789</p>
+                <p><i class="bi bi-envelope me-2"></i> info@brightworld.com</p>
+                <h5>Follow Us</h5>
+                <a href="#" class="social-icon text-white me-3" data-color="#3b5998"><i
+                        class="bi bi-facebook"></i></a>
+                <a href="#" class="social-icon text-white me-3" data-color="#1DA1F2"><i
+                        class="bi bi-twitter"></i></a>
+                <a href="#" class="social-icon text-white me-3" data-color="#E4405F"><i
+                        class="bi bi-instagram"></i></a>
+                <a href="#" class="social-icon text-white me-3" data-color="#0A66C2"><i
+                        class="bi bi-linkedin"></i></a>
+                <a href="tel:+92123456789" class="social-icon text-white me-3" data-color="#25D366"><i
+                        class="bi bi-telephone"></i></a>
+            </div>
+        </div>
+
+    </div>
+    <div class="text-center">
+        <p class="mb-0">© 2025 Bright World. All Rights Reserved.</p>
+    </div>
+</footer>
+    
+    <script>
+    // const progressCircle = document.querySelector(".autoplay-progress svg");
+    // const progressContent = document.querySelector(".autoplay-progress span");
+    // var swiper = new Swiper(".mySwiper", {
+    //   spaceBetween: 30,
+    //   centeredSlides: true,
+    //   autoplay: {
+    //     delay: 2500,
+    //     disableOnInteraction: false
+    //   },
+    //   pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true
+    //   },
+    //   navigation: {
+    //     nextEl: ".swiper-button-next",
+    //     prevEl: ".swiper-button-prev"
+    //   },
+    //   on: {
+    //     autoplayTimeLeft(s, time, progress) {
+    //       progressCircle.style.setProperty("--progress", 1 - progress);
+    //       progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+    //     }
+    //   }
+    // });
+    //     function filterSelection(category) {
+    //         let images = document.querySelectorAll('.gallery .col-12');
+    //         if (category === 'all') {
+    //             images.forEach(img => img.style.display = 'block');
+    //         } else {
+    //             images.forEach(img => {
+    //                 const imgElement = img.querySelector('img');
+    //                 const hasClass = imgElement.classList.contains(category);
+    //                 img.style.display = hasClass ? 'block' : 'none';
+    //             });
+    //         }
+    //     }
+        
+document.querySelectorAll('.social-icon').forEach(icon => {
+    icon.addEventListener('mouseover', function() {
+      this.style.setProperty('--hover-color', this.getAttribute('data-color'));
+    });
+  });   
+    </script>
+    <script src="./E-Project/assets/Bootstrap/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

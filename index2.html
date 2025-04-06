@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            background: rgba(0, 0, 0, 0.9);
+            height: 90px;
+            width: 100%;
+            position: fixed;
+            z-index: 100;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            color: white;
+        }
+
+        .nav-link {
+            color: white !important;
+            transition: color 0.3s;
+            font-size: larger;
+        }
+
+        .nav-link:hover {
+            color: orange !important;
+        }
+
+        .dropdown-menu {
+            background: rgba(0, 0, 0, 0.9);
+        }
+
+        .dropdown-menu a {
+            color: white;
+            margin-top: 10px;
+        }
+
+        .dropdown-item {
+            color: white !important;
+        }
+
+        .dropdown-item:hover {
+            background: orange;
+            color: black !important;
+        }
+
+        .Icons {
+            color: aliceblue;
+            font-size: x-large;
+            margin-left: 30px;
+        }
+
+        .Icons:hover {
+            color: orange;
+        }
+
+
+        /* Hero Section */
+        .hero img {
+            width: 100%;
+            height: 450px;
+            margin-top: 80px;
+        }
+
+        /* Feedback Form */
+        .feedback-form {
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            padding: 20px;
+            height: 400px;
+        }
+
+        /* Feedback List */
+        .feedback-item {
+            background: #222;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            position: relative;
+        }
+        .custom-orange-border {
+        border-color: #fd7e14 !important; /* Bootstrap's orange color */
+    }
+
+        .delete-btn {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            background: orange;
+            color: white;
+            border: none;
+            padding: 5px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        /* Footer */
+        .footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bright World</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="./home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./indoor.html">INDOR LIGHTS</a></li>
+                            <li><a class="dropdown-item" href="./outdoor.html">OUTDOR LIGHTS</a></li>
+                            <li><a class="dropdown-item" href="./indoor.html">WALL LIGHTS</a></li>
+                            <li><a class="dropdown-item" href="./outdoor.html">TABLE LIGHTS</a></li>
+                            <li><a class="dropdown-item" href="./indoor.html">SOLAR LIGHTS</a></li>
+                            <li><a class="dropdown-item" href="./outdoor.html">RESTURANT LIGHTS</a></li>
+                            <li><a class="dropdown-item" href="./indoor.html">KITCHEN LIGHTS</a></li>
+                            <li><a class="dropdown-item" href="./outdoor.html">KIDS LIGHTS</a></li>
+                            <li><a class="dropdown-item" href="./indoor.html">SPORT LIGHTS</a></li>
+                            <li><a class="dropdown-item" href="./outdoor.html">DECURATION LIGHTS</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./feedback.html">Feedback</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">Claim</a></li>
+                    <li>
+
+                        <a href="#" class="Icons fs-3">
+                            <i class="bi bi-person-circle"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <img src="./E-Project/assets/images/feedback/feedback.png" alt="Feedback">
+    </div>
+
+    <!-- Feedback Form -->
+    <div class="container mt-5 mb-5 py-4">
+        <div class="feedback-form mx-auto p-4 shadow rounded" data-aos="flip-left" data-aos-duration="3000" style="max-width: 600px;" >
+            <h2 class="text-center fw-bold mb-4" data-aos="fade-down" data-aos-duration="2000">Customer <span class="text-warning">Feedback</span></h2>
+            <form id="feedbackForm">
+                <div class="mb-3">
+                    <input type="text" id="name" class="form-control my-2 py-3 custom-orange-border" placeholder="Your Name" required>
+                </div>
+                <div class="mb-3">
+                    <textarea id="message" class="form-control my-2 py-3 custom-orange-border" placeholder="Your Feedback" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-warning w-100 py-2 fs-5">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Feedback List -->
+    <div class="container mt-4">
+        <div id="feedbackList"></div>
+    </div>
+
+    <!-- Customer Reviews -->
+    <div class="container mt-5">
+        <h1 class="text-center fw-bold">Read What Our <span class="text-warning">Customers Say</span></h1>
+        <div class="row mt-4">
+            <!-- Reviews will be inserted here -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <p>© 2025 Bright World. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        AOS.init();
+
+        document.getElementById("feedbackForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            let name = document.getElementById("name").value;
+            let message = document.getElementById("message").value;
+
+            if (name && message) {
+                let feedbackDiv = document.createElement("div");
+                feedbackDiv.classList.add("feedback-item", "p-3", "mt-3", "position-relative");
+                feedbackDiv.innerHTML = `
+                    <strong>${name}:</strong> ${message}
+                    <button class="delete-btn">Delete</button>
+                `;
+
+                document.getElementById("feedbackList").appendChild(feedbackDiv);
+
+                feedbackDiv.querySelector(".delete-btn").addEventListener("click", function () {
+                    feedbackDiv.remove();
+                });
+
+                document.getElementById("feedbackForm").reset();
+            }
+        });
+
+        // Static Customer Reviews
+        let reviews = [
+            { name: "Kamran Tassori", message: "Great service! Highly recommended." },
+            { name: "Mila Kunis", message: "I love this website. It's amazing!" }
+        ];
+
+        let reviewContainer = document.querySelector(".row.mt-4");
+        reviews.forEach(review => {
+            reviewContainer.innerHTML += `<div class="col-md-6"><div class="feedback-item p-3">${review.message} - <strong>${review.name}</strong></div></div>`;
+        });
+    </script>
+
+</body>
+
+</html>

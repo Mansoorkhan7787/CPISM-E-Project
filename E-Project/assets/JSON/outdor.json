@@ -1,0 +1,163 @@
+[
+    {
+        "id" : 101,
+        "name" : "2 in 1 Solar Flame Lamp",
+        "price" : "5,000.00",
+        "sold" : "45+ sold",
+        "discription" : "2 in 1 Solar Flame Lamp . Sit corporis voluptates eaque ullam quia delectus vel minus dolor porro eum, ad officia eveniet expedita totam illum quisquam sapiente veniam optio!",
+        "image" : "./E-Project/assets/images/outdor-image/outdor1.png" 
+    },
+    {
+        "id" : 102,
+        "name" : "4-Sided outdoor COB Light",
+        "price" : "3,499.00",
+        "sold" : "32+ sold ",
+        "discription" : "4-Sided outdoor COB Light . Sit corporis voluptates eaque ullam quia delectus vel minus dolor porro eum, ad officia eveniet expedita totam illum quisquam sapiente veniam optio!",
+        "image" : "./E-Project/assets/images/outdor-image/outdor2.png" 
+    },
+    {
+        "id" : 103,
+        "name" : "40w Solor Street Light",
+        "price" : "13,500.00",
+        "sold" : "26+ sold ",
+        "discription" : "40w Solor Street Light. Sit corporis voluptates eaque ullam quia delectus vel minus dolor porro eum, ad officia eveniet expedita totam illum quisquam sapiente veniam optio!",
+        "image" : "./E-Project/assets/images/outdor-image/outdor3.png" 
+    },
+    {
+        "id" : 104,
+        "name" : "7w Solar Lown Spike",
+        "price" : "4,500.00",
+        "sold" : "52+ sold ",
+        "discription" : "7w Solar Lown Spike . Sit corporis voluptates eaque ullam quia delectus vel minus dolor porro eum, ad officia eveniet expedita totam illum quisquam sapiente veniam optio!",
+        "image" : "./E-Project/assets/images/outdor-image/outdor4.png" 
+    },
+    {
+        "id" : 105,
+        "name" : "Helios Solar Induction Lamp",
+        "price" : "7,500.00",
+        "sold" : "37+ sold ",
+        "discription" : "Helios Solar Induction Lamp . Sit corporis voluptates eaque ullam quia delectus vel minus dolor porro eum, ad officia eveniet expedita totam illum quisquam sapiente veniam optio!",
+        "image" : "./E-Project/assets/images/outdor-image/outdor5.png" 
+    },
+    {
+        "id" : 106,
+        "name" : "Imperial Solar Lamp",
+        "price" : "6,999.00",
+        "sold" : "22+ sold ",
+        "discription" : "Imperial Solar Lamp . Sit corporis voluptates eaque ullam quia delectus vel minus dolor porro eum, ad officia eveniet expedita totam illum quisquam sapiente veniam optio!",
+        "image" : "./E-Project/assets/images/outdor-image/outdor6.png" 
+    },
+    {
+        "id" : 107,
+        "name" : "LED Bulb String (16 Feet)",
+        "price" : "7,499.00",
+        "sold" : "39+ sold ",
+        "discription" : "LED Bulb String (16 Feet) . Sit corporis voluptates eaque ullam quia delectus vel minus dolor porro eum, ad officia eveniet expedita totam illum quisquam sapiente veniam optio!",
+        "image" : "./E-Project/assets/images/outdor-image/outdor7.png" 
+    },
+    {
+        "id" : 108,
+        "name" : "Outdor Garden Lamp",
+        "price" : "3,500.00",
+        "sold" : "29+ sold ",
+        "discription" : "Outdor Garden Lamp . Sit corporis voluptates eaque ullam quia delectus vel minus dolor porro eum, ad officia eveniet expedita totam illum quisquam sapiente veniam optio!",
+        "image" : "./E-Project/assets/images/outdor-image/outdor8.png" 
+    },
+    {
+        "id" : 109,
+        "name" : "Solar Artificial Leaves",
+        "price" : "2,999.00",
+        "sold" : "38+ sold ",
+        "discription" : "Solar Artificial Leaves. Sit corporis voluptates eaque ullam quia delectus vel minus dolor porro eum, ad officia eveniet expedita totam illum quisquam sapiente veniam optio!",
+        "image" : "./E-Project/assets/images/outdor-image/outdor9.png" 
+    },
+    {
+        "id" : 10,
+        "name" : "Imperial Solar Ball Chaime",
+        "price" : "2,999.00",
+        "sold" : "25+ sold ",
+        "discription" : "Solar Ball Chaime. Sit corporis voluptates eaque ullam quia delectus vel minus dolor porro eum, ad officia eveniet expedita totam illum quisquam sapiente veniam optio!",
+        "image" : "./E-Project/assets/images/outdor-image/outdor10.png" 
+    },
+    {
+        "id" : 11,
+        "name" : "Solar Courtyard Lamp",
+        "price" : "6,000.00",
+        "sold" : "41+ sold ",
+        "discription" : "Solar Courtyard Lamp. Sit corporis voluptates eaque ullam quia delectus vel minus dolor porro eum, ad officia eveniet expedita totam illum quisquam sapiente veniam optio!",
+        "image" : "./E-Project/assets/images/outdor-image/outdor11.png" 
+    },
+    {
+        "id" : 12,
+        "name" : "Solar Fairy String",
+        "price" : "3,999.00",
+        "sold" : "21+ sold ",
+        "discription" : "Solar Fairy String. Sit corporis voluptates eaque ullam quia delectus vel minus dolor porro eum, ad officia eveniet expedita totam illum quisquam sapiente veniam optio!",
+        "image" : "./E-Project/assets/images/outdor-image/outdor12.png" 
+    },
+    {
+        "id" : 13,
+        "name" : "Solar Feance Cap",
+        "price" : "7,500.00",
+        "sold" : "32+ sold ",
+        "discription" : "Solar Feance Cap. Sit corporis voluptates eaque ullam quia delectus vel minus dolor porro eum, ad officia eveniet expedita totam illum quisquam sapiente veniam optio!",
+        "image" : "./E-Project/assets/images/outdor-image/outdor13.png" 
+    },
+    {
+        "id" : 14,
+        "name" : "Solar Globe",
+        "price" : "20,000.00",
+        "sold" : "54+ sold ",
+        "discription" : "Solar Globe. Sit corporis voluptates eaque ullam quia delectus vel minus dolor porro eum, ad officia eveniet expedita totam illum quisquam sapiente veniam optio!",
+        "image" : "./E-Project/assets/images/outdor-image/outdor14.png" 
+    },
+    {
+        "id" : 15,
+        "name" : "Solar Illumination Lamp",
+        "price" : "2,500.00",
+        "sold" : "43+ sold ",
+        "discription" : "Solar Illumination Lamp. Sit corporis voluptates eaque ullam quia delectus vel minus dolor porro eum, ad officia eveniet expedita totam illum quisquam sapiente veniam optio!",
+        "image" : "./E-Project/assets/images/outdor-image/outdor15.png" 
+    },
+    {
+        "id" : 16,
+        "name" : "Solar Lown Lamp",
+        "price" : "7,499.00",
+        "sold" : "29+ sold ",
+        "discription" : "Solar Lown Lamp. Sit corporis voluptates eaque ullam quia delectus vel minus dolor porro eum, ad officia eveniet expedita totam illum quisquam sapiente veniam optio!",
+        "image" : "./E-Project/assets/images/outdor-image/outdor16.png" 
+    },
+    {
+        "id" : 17,
+        "name" : "Solar Pillar Light",
+        "price" : "20,000.00",
+        "sold" : "36+ sold ",
+        "discription" : "Solar Pillar Light. Sit corporis voluptates eaque ullam quia delectus vel minus dolor porro eum, ad officia eveniet expedita totam illum quisquam sapiente veniam optio!",
+        "image" : "./E-Project/assets/images/outdor-image/outdor17.png" 
+    },
+    {
+        "id" : 18,
+        "name" : "Solar Relic Lamp",
+        "price" : "25,000.00",
+        "sold" : "33+ sold ",
+        "discription" : "Solar Relic Lamp. Sit corporis voluptates eaque ullam quia delectus vel minus dolor porro eum, ad officia eveniet expedita totam illum quisquam sapiente veniam optio!",
+        "image" : "./E-Project/assets/images/outdor-image/outdor18.png" 
+    },
+    {
+        "id" : 19,
+        "name" : "Solar Star Palace Lamp",
+        "price" : "2,750.00",
+        "sold" : "41+ sold ",
+        "discription" : "Solar  Palace Lamp. Sit corporis voluptates eaque ullam quia delectus vel minus dolor porro eum, ad officia eveniet expedita totam illum quisquam sapiente veniam optio!",
+        "image" : "./E-Project/assets/images/outdor-image/outdor19.png" 
+    },
+    {
+        "id" : 20,
+        "name" : "Solar Down Light",
+        "price" : "4,500.00",
+        "sold" : "46+ sold ",
+        "discription" : "Solar Down Light. Sit corporis voluptates eaque ullam quia delectus vel minus dolor porro eum, ad officia eveniet expedita totam illum quisquam sapiente veniam optio!",
+        "image" : "./E-Project/assets/images/outdor-image/outdor20.png" 
+    }
+
+]

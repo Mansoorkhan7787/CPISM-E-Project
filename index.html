@@ -1,0 +1,210 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+ Font Awesome Icon Library 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.checked {
+  color: orange;
+}
+</style>
+</head>
+<body>
+
+
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>4.1 average based on 254 reviews.</p>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+    /* background: linear-gradient(135deg, #8e2de2, #4a00e0); */
+    background-image: url("./E-Project/assets/images/home-image/logo2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.login-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.input-group-text {
+    background: none;
+    border: none;
+}
+
+.form-control {
+    border-left: none;
+    border-radius: 0;
+    border-bottom: 2px solid #ddd;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: rgb(252, 207, 109);
+    /* border-color: #8e2de2; */
+}
+
+.btn-primary {
+    /* background: linear-gradient(to right, #8e2de2, #4a00e0); */
+    background: linear-gradient(to right, #ffaf7a, #ff781f,#ff6600);
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.social-icons i {
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #555;
+    transition: 0.3s;
+}
+
+.social-icons i:hover {
+    color: #8e2de2;
+}
+.Icons {
+  color: orangered;
+  display: flex;
+  margin-left: 15px;
+}
+.Icons:hover {
+  color: black;
+}
+.social-icon {
+  font-size: 20px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.social-icon:hover {
+  transform: scale(1.2);
+  color: var(--hover-color) !important;
+}
+@media (max-width: 768px) {
+  .col-md-4 {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .card:hover {
+      transform: none;
+      box-shadow: none;
+  }
+}
+
+
+</style>
+<body>
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="login-box">
+            <h2 class="text-center">Login</h2>
+            <form id="loginForm">
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        <input type="text" id="username" class="form-control" placeholder="Type your username">
+                    </div>
+                    <small class="text-danger d-none" id="usernameError">Enter a valid username .</small>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                        <input type="password" id="password" class="form-control" placeholder="Type your password">
+                    </div>
+                    <small class="text-danger d-none" id="passwordError">Password must be 8+ chars with a number, uppercase & special character.</small>
+                </div>
+                <div class="text-end">
+                    <a href="#" class="small">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn btn-primary w-100 mt-3">LOGIN</button>
+            </form>
+            <p class="text-center mt-3">Or Sign Up Using</p>
+            <!-- <div class="social-icons text-center">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-google"></i>
+                <i class="fab fa-youtube"></i>
+            </div> -->
+            <div class="social-icons text-center">
+                <i class="fab fa-facebook-f text-primary fs-3"></i> <!-- Facebook (Blue) -->
+                <i class="fab fa-instagram text-danger fs-3"></i> <!-- Instagram (Red/Pink) -->
+                <i class="fab fa-google text-danger fs-3"></i> <!-- Google (Green) -->
+                <i class="fab fa-youtube text-danger fs-3"></i> <!-- YouTube (Red) -->
+            </div>
+            <p class="text-center mt-2">Or Sign Up Using <a href="#">SIGN UP</a></p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Form submit hone se roknay ke liye
+    
+
+    let username = document.getElementById("username").value;
+    let password = document.getElementById("password").value;
+
+    let usernameError = document.getElementById("usernameError");
+    let passwordError = document.getElementById("passwordError");
+
+    let usernameRegex = /^[a-zA-Z0-9]{4,}$/;  // Username: 4-15 letters/numbers
+    let passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%&*])[a-zA-Z\d!@#$%&*]{8,}$/i;// Password: 8+ chars, 1 uppercase, 1 number, 1 special char
+
+    let valid = true;
+
+    // Username Validation
+    if (!usernameRegex.test(username)) {
+        usernameError.classList.remove("d-none");
+        valid = false;
+    } else {
+        usernameError.classList.add("d-none");
+    }
+
+    // Password Validation
+    if (!passwordRegex.test(password)) {
+        passwordError.classList.remove("d-none");
+        valid = false;
+    } else {
+        passwordError.classList.add("d-none");
+    }
+
+    // If valid, show success alert
+    if (valid) {
+        alert("Login Successful!");
+        document.querySelector("#loginForm").reset();
+    }
+});
+
+    </script>
+</body>
+</html>
