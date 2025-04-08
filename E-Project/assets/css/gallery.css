@@ -72,7 +72,8 @@ body {
   }
   
   .nav-link-custom:hover {
-    color: var(--primary-color) !important;
+    /* color: var(--primary-color) !important; */
+    color: orange;
   
   }
   
@@ -82,12 +83,16 @@ body {
   }
   
   .dropdown-item-custom {
-    color: white !important;
+    color: white !important; 
     padding: 8px 15px;
+  }
+  .nav-link:hover {
+    color: #c28c18;
   }
   
   .dropdown-item-custom:hover {
-    background-color: var(--primary-color) !important;
+    background-color: orange;
+    /* background-color: var(--primary-color) !important; */
   }
   
   .subscribe-btn-custom {
@@ -98,93 +103,14 @@ body {
     margin-left: 10px;
     background-color: orange;
   }
-
+  header img {
+    height: 400px;
+    width: 100%;
+  }
   header {
-    text-align: center;
-    padding: 30px 0;
-    background: linear-gradient(135deg, #f5ef9b 0%, #ffcb3dfb 100%);
-    height: 370px;
-    margin-bottom: 30px;
-    margin-top: 26px;
-}
+    margin-top: 50px;
+  }
 
-h1 {
-    color: #2c3e50;
-    font-size: 3.5rem;
-    font-weight: 700;
-    margin-top: 10px;
-}
-
-header p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-}
-
-/* html,
-body {
-  position: relative;
-  height: 100%;
-}
-
-body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
-
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.autoplay-progress {
-  position: absolute;
-  right: 16px;
-  bottom: 16px;
-  z-index: 10;
-  width: 48px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  color: var(--swiper-theme-color);
-}
-
-.autoplay-progress svg {
-  --progress: 0;
-  position: absolute;
-  left: 0;
-  top: 0px;
-  z-index: 10;
-  width: 100%;
-  height: 100%;
-  stroke-width: 4px;
-  stroke: var(--swiper-theme-color);
-  fill: none;
-  stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
-  stroke-dasharray: 125.6;
-  transform: rotate(-90deg);
-} */
 .hero {
     background: url('./imge/OIP (3).jpeg') no-repeat center center/cover;
     color: rgb(243, 234, 234);
@@ -196,6 +122,7 @@ body {
     font-size: 36px;
     font-weight: bold;
 }
+
 .hero p {
     font-size: 18px;
     max-width: 600px;

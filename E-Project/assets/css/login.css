@@ -6,6 +6,7 @@ body {
   font-family: 'Arial', sans-serif;
   background-color: #f8f9fa;
   padding-top: 70px;
+  background: linear-gradient(to right, #f0d897, #e7ae44,#dfa21e);
 }
 .navbar-custom {
   background-color: black !important;

@@ -4,26 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Gallery</title>
- 
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href=".//E-Project/assets/Bootstrap/bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="./E-Project/assets/css/gallery.css">
+    
 </head>
+<link rel="stylesheet" href="./E-Project/assets/css/gallery.css">
 <body>
   
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
         <div class="container-fluid">
-            <!-- <a class="navbar-brand navbar-brand-custom" href="#">
-                <img src="./E-Project/assets/images/home-image/bulb.png" alt="" srcset="">
-            </a> -->
-            <!-- <a class="navbar-brand navbar-brand-custom" href="#">
-                <img src="./E-Project/assets/images/home-image/bulb.png" alt="Company Logo" 
-                     class="img-fluid" 
-                     style="max-height: 190px; width: 190px;">
-            </a> -->
             <a class="navbar-brand navbar-brand-custom" href="#">
                 <img src="./E-Project/assets/images/home-image/bulb.png" alt="Company Logo" 
                      class="img-fluid" 
@@ -47,7 +38,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link nav-link-custom dropdown-toggle" href="#" id="servicesDropdown" data-bs-toggle="dropdown">
-                            Services
+                            Categories
                         </a>
                         <ul class="dropdown-menu dropdown-menu-custom" aria-labelledby="servicesDropdown">
                             <li><a class="dropdown-item dropdown-item-custom" href="./indor.html">Indoor Lights</a></li>
@@ -63,7 +54,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-custom" href="#">Blog</a>
+                        <a class="nav-link nav-link-custom" href="./gallery.html">Gallery</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav-link-custom" href="./feedback.html">Feedback</a>
@@ -86,33 +77,10 @@
             </div>
         </div>
     </nav>
-    <!-- Swiper -->
-    <!-- <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"> <img src="./E-Project/assets/images/gallery-image/s1.png" alt="" srcset=""> </div>
-          <div class="swiper-slide"><img src="./E-Project/assets/images/gallery-image/s2.png" alt="" srcset=""></div>
-          <div class="swiper-slide"><img src="./E-Project/assets/images/gallery-image/s3.png" alt="" srcset=""></div>
-          <div class="swiper-slide"><img src="./E-Project/assets/images/gallery-image/s4.png" alt="" srcset=""></div>
-          <div class="swiper-slide"><img src="./E-Project/assets/images/gallery-image/s5.png" alt="" srcset=""></div>
-          <div class="swiper-slide"><img src="./E-Project/assets/images/gallery-image/s6.png" alt="" srcset=""></div>
-          <div class="swiper-slide"><img src="./E-Project/assets/images/gallery-image/s7.png" alt="" srcset=""></div>
-          <div class="swiper-slide"><img src="./E-Project/assets/images/gallery-image/s8.png" alt="" srcset=""></div>
-          <div class="swiper-slide"><img src="./E-Project/assets/images/gallery-image/s3.png" alt="" srcset=""></div>
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-        <div class="autoplay-progress">
-          <svg viewBox="0 0 48 48">
-            <circle cx="24" cy="24" r="20"></circle>
-          </svg>
-          <span></span>
-        </div>
-      </div> -->
+ 
       <header class="py-5">
-        <div class="container">
-            <h1>About Bright World</h1>
-            <p>Illuminating Your Life With Quality Lighting Solutions</p>
+        <div class="container-fluid">
+            <img src="./E-Project/assets/images/home-image/slider/home slide10.png" alt="" srcset="">
         </div>
     </header>
     
@@ -490,51 +458,34 @@
 </footer>
     
     <script>
-    // const progressCircle = document.querySelector(".autoplay-progress svg");
-    // const progressContent = document.querySelector(".autoplay-progress span");
-    // var swiper = new Swiper(".mySwiper", {
-    //   spaceBetween: 30,
-    //   centeredSlides: true,
-    //   autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false
-    //   },
-    //   pagination: {
-    //     el: ".swiper-pagination",
-    //     clickable: true
-    //   },
-    //   navigation: {
-    //     nextEl: ".swiper-button-next",
-    //     prevEl: ".swiper-button-prev"
-    //   },
-    //   on: {
-    //     autoplayTimeLeft(s, time, progress) {
-    //       progressCircle.style.setProperty("--progress", 1 - progress);
-    //       progressContent.textContent = `${Math.ceil(time / 1000)}s`;
-    //     }
-    //   }
-    // });
-    //     function filterSelection(category) {
-    //         let images = document.querySelectorAll('.gallery .col-12');
-    //         if (category === 'all') {
-    //             images.forEach(img => img.style.display = 'block');
-    //         } else {
-    //             images.forEach(img => {
-    //                 const imgElement = img.querySelector('img');
-    //                 const hasClass = imgElement.classList.contains(category);
-    //                 img.style.display = hasClass ? 'block' : 'none';
-    //             });
-    //         }
-    //     }
         
 document.querySelectorAll('.social-icon').forEach(icon => {
     icon.addEventListener('mouseover', function() {
       this.style.setProperty('--hover-color', this.getAttribute('data-color'));
     });
-  });   
+  });  
+  function filterSelection(category) {
+    // Get all filterable items
+    const items = document.getElementsByClassName('filter-item');
+    
+    // Show all items if "all" is selected
+    if (category === "all") {
+        for (let item of items) {
+            item.style.display = "block";
+        }
+        return;
+    }
+    
+    // Hide/show items based on category
+    for (let item of items) {
+        if (item.classList.contains(category)) {
+            item.style.display = "block";
+        } else {
+            item.style.display = "none";
+        }
+    }
+} 
     </script>
     <script src="./E-Project/assets/Bootstrap/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
-    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

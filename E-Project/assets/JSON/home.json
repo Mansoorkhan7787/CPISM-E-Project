@@ -1,73 +1,73 @@
 [
     {
         "id" : 101,
-        "name" : "kids Lighting",
-        "price" : "1299.00",
+        "name" : "Walls Light",
+        "price" : "599.00",
         "sold" : "20+ bought in past month",
         "rating" :" <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star-half-alt checked\"></span>",
         "reviews" :"4.4 average based on 254 reviews.",
         "discription" : "Adjustable  Mounted Light. Odio recusandae repellat, cupiditate, omnis velit, alias suscipit natus hic corporis mollitia delectus animi!",
-        "image" : " ./E-Project/assets/images/home-image/home1.png  " 
+        "image" : " ./E-Project/assets/images/home-image/home 1.png  " 
     },
     {
         "id" : 102,
-        "name" : "tourch lights",
-        "price" : "999.00",
+        "name" : "Walls Light",
+        "price" : "1999.00",
         "sold" : "12+ bought in past month",
         "rating" :" <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span>",
         "reviews" :"4.9 average based on 294 reviews.",
         "discription" : " 4-Sided  Outd0or COB Light  Odio recusandae repellat, cupiditate, omnis velit, alias suscipit natus hic corporis mollitia delectus animi!",
-        "image" : " ./E-Project/assets/images/home-image/home2.png  " 
+        "image" : " ./E-Project/assets/images/home-image/home 2.png  " 
     }, 
     {
         "id" : 103,
-        "name" : "outdor Light",
-        "price" : "799.00",
+        "name" : "Walls Light",
+        "price" : "1799.00",
         "sold" : "10+ bought in past month",
         "rating" :" <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star\"></span>",
         "reviews" :"4.1 average based on 234 reviews.",
         "discription" : "Aura Wall Lamp   Odio recusandae repellat, cupiditate, omnis velit, alias suscipit natus hic corporis mollitia delectus animi!",
-        "image" : " ./E-Project/assets/images/home-image/home3.png  " 
+        "image" : " ./E-Project/assets/images/home-image/home 3.png  " 
     },
     {
         "id" : 104,
-        "name" : "LED bulbs",
-        "price" : "1199.00",
+        "name" : "Bathroom lights",
+        "price" : "2199.00",
         "sold" : "8+ bought in past month",
         "rating" :" <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star-half-alt checked\"></span>",
         "reviews" :"4.3 average based on 369 reviews.",
         "discription" : "Azura Ceiling Lamp  Odio recusandae repellat, cupiditate, omnis velit, alias suscipit natus hic corporis mollitia delectus animi!",
-        "image" : " ./E-Project/assets/images/home-image/home4.png" 
+        "image" : " ./E-Project/assets/images/home-image/home 4.png" 
     },
     {
         "id" : 105,
-        "name" : "LED bulbs",
-        "price" : "2,899.00",
+        "name" : "Mirror Lights",
+        "price" : "1,299.00",
         "sold" : "22+ bought in past month",
         "rating" :" <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star\"></span>",
         "reviews" :"4.1 average based on 324 reviews.",
         "discription" : "Black Gold Bowl Pendent  Odio recusandae repellat, cupiditate, omnis velit, alias suscipit natus hic corporis mollitia delectus animi!r",
-        "image" : " ./E-Project/assets/images/home-image/home5.png  " 
+        "image" : " ./E-Project/assets/images/home-image/home 5.png  " 
     },
     {
         "id" : 106,
-        "name" : "LED bulbs",
-        "price" : "999.00",
+        "name" : "Wall lamp",
+        "price" : "1,699.00",
         "sold" : "25+ bought in past month",
         "rating" :" <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star-half-alt checked\"></span>",
         "reviews" :"4.5 average based on 292 reviews.",
         "discription" : "Bronze Wall Lamp  Odio recusandae repellat, cupiditate, omnis velit, alias suscipit natus hic corporis mollitia delectus animi!",
-        "image" : " ./E-Project/assets/images/home-image/home6.png  " 
+        "image" : " ./E-Project/assets/images/home-image/home 6.png  " 
     },
     {
         "id" : 107,
-        "name" : "decuration Lights",
+        "name" : "Walls Lights",
         "price" : "3,499.00",
         "sold" : "17+ bought in past month",
         "rating" :" <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span>",
         "reviews" :"4.9 average based on 392 reviews.",
         "discription" : "Caravan Lamp  Odio recusandae repellat, cupiditate, omnis velit, alias suscipit natus hic corporis mollitia delectus animi! ",
-        "image" : "./E-Project/assets/images/home-image/home7.png " 
+        "image" : "./E-Project/assets/images/home-image/home 7.png " 
     },
     {
         "id" : 108,
@@ -77,37 +77,37 @@
         "rating" :" <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span>",
         "reviews" :"4.8 average based on 354 reviews.",
         "discription" : "Coral Wall Lamp  Odio recusandae repellat, cupiditate, omnis velit, alias suscipit natus hic corporis mollitia delectus animi!",
-        "image" : "./E-Project/assets/images/home-image/home8.png  " 
+        "image" : "./E-Project/assets/images/home-image/home 8.png  " 
     }, 
     {
         "id" : 109,
-        "name" : "indor Lights",
-        "price" : "1,499.00",
+        "name" : "Ceilling Lights",
+        "price" : "2,499.00",
         "sold" : "25+ bought in past month",
         "rating" :" <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star \"></span>",
         "reviews" :"4.4 average based on 254 reviews.",
         "discription" : " Creative Mirror Light  Odio recusandae repellat, cupiditate, omnis velit, alias suscipit natus hic corporis mollitia delectus animi!",
-        "image" : "./E-Project/assets/images/home-image/home9.png  " 
+        "image" : "./E-Project/assets/images/home-image/home 9.png  " 
     },
     {
         "id" : 110,
-        "name" : "outdor Light",
+        "name" : "Walls Light",
         "price" : "999.00",
         "sold" : "19+ bought in past month",
         "rating" :" <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span>",
         "reviews" :"4.4 average based on 254 reviews.",
         "discription" : "Droplet Table Lamp  Odio recusandae repellat, cupiditate, omnis velit, alias suscipit natus hic corporis mollitia delectus animi!",
-        "image" : "./E-Project/assets/images/home-image/home10.png  " 
+        "image" : "./E-Project/assets/images/home-image/home 10.png  " 
     }, 
     {
         "id" : 111,
-        "name" : "decuration Lights",
-        "price" : "1,999.00",
+        "name" : "Table Lamp",
+        "price" : "1,699.00",
         "sold" : "9+ bought in past month",
         "rating" :" <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star-half-alt checked\"></span> <span class=\"fa fa-star\"></span>",
         "reviews" :"3.9 average based on 254 reviews.",
         "discription" : " Elba Wall Clock  Odio recusandae repellat, cupiditate, omnis velit, alias suscipit natus hic corporis mollitia delectus animi!",
-        "image" : "./E-Project/assets/images/home-image/home11.png " 
+        "image" : "./E-Project/assets/images/home-image/home 11.png " 
     },
     {
         "id" : 112,
@@ -117,77 +117,77 @@
         "rating" :" <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star-half-alt checked\"></span>",
         "reviews" :"4.4 average based on 374 reviews.",
         "discription" : "Half K-Shap Light  Odio recusandae repellat, cupiditate, omnis velit, alias suscipit natus hic corporis mollitia delectus animi!",
-        "image" : " ./E-Project/assets/images/home-image/home12.png " 
+        "image" : " ./E-Project/assets/images/home-image/home 12.png " 
     },
     {
         "id" : 113,
-        "name" : "table lamp",
-        "price" : "999.00",
+        "name" : "Tracking lights",
+        "price" : "5,999.00",
         "sold" : "28+ bought in past month",
         "rating" :" <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star-half-alt checked\"></span>",
         "reviews" :"4.5 average based on 419 reviews.",
         "discription" : "Hollywood Vanity Light  Odio recusandae repellat, cupiditate, omnis velit, alias suscipit natus hic corporis mollitia delectus animi!",
-        "image" : "./E-Project/assets/images/home-image/home13.png  " 
+        "image" : "./E-Project/assets/images/home-image/home 13.png  " 
     },
     {
         "id" : 114,
-        "name" : "table lamp",
-        "price" : "1,399.00",
+        "name" : "outdor Light",
+        "price" : "1,999.00",
         "sold" : "8+ bought in past month",
         "rating" :" <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span>",
         "reviews" :"4.8 average based on 204 reviews.",
         "discription" : "Islamic Script Lamp  Odio recusandae repellat, cupiditate, omnis velit, alias suscipit natus hic corporis mollitia delectus animi!",
-        "image" : "./E-Project/assets/images/home-image/home14.png " 
+        "image" : "./E-Project/assets/images/home-image/home 14.png " 
     }, 
     {
         "id" : 115,
-        "name" : "kids lights",
-        "price" : "699.00",
+        "name" : "Outdor lights",
+        "price" : "1,699.00",
         "sold" : "17+ bought in past month",
         "rating" :" <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star-half-alt checked\"></span>",
         "reviews" :"4.5 average based on 331 reviews.",
         "discription" : " Magestic Wall Lamp  Odio recusandae repellat, cupiditate, omnis velit, alias suscipit natus hic corporis mollitia delectus animi!",
-        "image" : " ./E-Project/assets/images/home-image/home15.png  "  
+        "image" : " ./E-Project/assets/images/home-image/home 15.png  "  
     },
     {
         "id" : 116,
-        "name" : "kids lights",
-        "price" : "599.00",
+        "name" : "Smart Bulb",
+        "price" : "699.00",
         "sold" : "16+ bought in past month",
         "rating" :" <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star-half-alt checked\"></span>",
         "reviews" :"4.6 average based on 392 reviews.",
         "discription" : " Hanging Ball Lamp  Odio recusandae repellat, cupiditate, omnis velit, alias suscipit natus hic corporis mollitia delectus animi!",
-        "image" : "./E-Project/assets/images/home-image/home16.png  " 
+        "image" : "./E-Project/assets/images/home-image/home 16.png  " 
     }, 
     {
         "id" : 117,
-        "name" : "decuration Lights",
-        "price" : "2,299.00",
+        "name" : "Tube Lights",
+        "price" : "999.00",
         "sold" : "18+ bought in past month",
         "rating" :" <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star\"></span>",
         "reviews" :"4.1 average based on 294 reviews.",
         "discription" : "Six x Six COB  Odio recusandae repellat, cupiditate, omnis velit, alias suscipit natus hic corporis mollitia delectus animi!",
-        "image" : "./E-Project/assets/images/home-image/home17.png  " 
+        "image" : "./E-Project/assets/images/home-image/home 17.png  " 
     },
     {
         "id" : 118,
-        "name" : "decuration Lights",
-        "price" : "1,299.00",
+        "name" : "Wall Lamp",
+        "price" : "1,899.00",
         "sold" : "23+ bought in past month",
         "rating" :" <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star-half-alt checked\"></span>",
         "reviews" :"4.5 average based on 404 reviews.",
         "discription" : "UFO Global Lamp  Odio recusandae repellat, cupiditate, omnis velit, alias suscipit natus hic corporis mollitia delectus animi!",
-        "image" : "./E-Project/assets/images/home-image/home18.png  " 
+        "image" : "./E-Project/assets/images/home-image/home9.png  " 
     },
     {
         "id" : 119,
-        "name" : "resturant Lights",
-        "price" : "5,499.00",
+        "name" : "Table Lamp",
+        "price" : "2,099.00",
         "sold" : "19+ bought in past month",
         "rating" :" <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star checked\"></span> <span class=\"fa fa-star-half-alt checked\"></span>",
         "reviews" :"4.4 average based on 194 reviews.",
         "discription" : "Wood Graint Vanity Light  Odio recusandae repellat, cupiditate, omnis velit, alias suscipit natus hic corporis mollitia delectus animi!",
-        "image" : "./E-Project/assets/images/home-image/home19.png  " 
+        "image" : "./E-Project/assets/images/home-image/home14.png  " 
     },
     {
         "id" : 120,

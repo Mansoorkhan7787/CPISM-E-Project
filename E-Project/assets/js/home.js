@@ -1,14 +1,14 @@
-$(document).ready(function(){
+$(document).ready(function () {
     $.ajax({
-        url : "./E-Project/assets/JSON/home.json",
-        type : "GET",
-    success : function(data){
-            
+        url: "./E-Project/assets/JSON/home.json",
+        type: "GET",
+        success: function (data) {
+
             let card = " ";
             let modal = " ";
-            $.each(data,function(keys,values) {
-                
-             card += `
+            $.each(data, function (keys, values) {
+
+                card += `
                  <div class=" col-lg-3 col-md-4 mt-5 mb-4">
           <div class="card">
               <img src="${values.image}" class="card-img-top" alt="${values.name}">
@@ -18,13 +18,16 @@ $(document).ready(function(){
                    <p class="card-text ct">  ${values.rating}</p>
                    <p class="card-text ct">  ${values.reviews}</p>
                    
-                <a href="#${values.id}" data-bs-toggle="modal" class=" btn  button mx-2 " >details</a>
-                <a href="${"./feedback.html"}" data-bs-toggle="modal" class=" btn  button" >feedback</a>
+                    <div class="d-flex justify-content-center">
+                        <a href="#${values.id}" data-bs-toggle="modal" class="btn button mx-2">Details</a>
+                         <a href="./feedback.html" class="btn button mx-2">Feedback</a>
+                    </div>
+
               </div>
           </div>
       </div> `
 
-      modal += ` <div class="modal fade " id="${values.id}" tabindex="-1"  aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false"  aria-labelledby="staticBackdropLabel" >
+                modal += ` <div class="modal fade " id="${values.id}" tabindex="-1"  aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false"  aria-labelledby="staticBackdropLabel" >
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
@@ -60,8 +63,8 @@ $(document).ready(function(){
         </div>
       </div>
     </div>`
-           
-            
+
+
 
             })
             document.getElementById("home").innerHTML = card;
@@ -82,7 +85,7 @@ function increament() {
     count++;
     qty.val(count);
     if (qty.val() > 1) {
-        $("#alert").hide(); 
+        $("#alert").hide();
     }
     // console.log(qty.val());
 }
@@ -91,7 +94,7 @@ function decreament() {
     if (qty.val() > 1) {
         count--;
         qty.val(count);
-      
+
     } else {
         $("#alert").show().html("atleast 1 product must be added into cart")
 
@@ -99,9 +102,43 @@ function decreament() {
     }
 }
 
+
+document.addEventListener("DOMContentLoaded", function () {
+    let text = document.getElementById("animated-text");
+    text.style.opacity = "1";
+    text.style.transform = "translateY(360)";
+});
+
+
+
 document.querySelectorAll('.social-icon').forEach(icon => {
-    icon.addEventListener('mouseover', function() {
-      this.style.setProperty('--hover-color', this.getAttribute('data-color'));
+    icon.addEventListener('mouseover', function () {
+        this.style.setProperty('--hover-color', this.getAttribute('data-color'));
     });
-  });
+});
+
+const progressCircle = document.querySelector(".autoplay-progress svg");
+const progressContent = document.querySelector(".autoplay-progress span");
+var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+    },
+    on: {
+        autoplayTimeLeft(s, time, progress) {
+            progressCircle.style.setProperty("--progress", 1 - progress);
+            progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+        }
+    }
+});
 
