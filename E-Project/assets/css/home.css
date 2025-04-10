@@ -15,7 +15,7 @@ body {
     top: 0;
     height: 110px;
     width: 100%;
-    z-index: 1000;
+    z-index: 100;
     padding: 10px 0;
     transition: all 0.3s ease;
 }
@@ -273,56 +273,6 @@ body {
 
 /* main section */
 
-h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    font-weight: 700;
-    font-size: 2.5rem;
-
-}
-
-#part {
-
-    height: 250px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
-#bg1 {
-    display: inline-block;
-}
-
-#bg2 {
-    display: inline-block;
-}
-
-#bg3 {
-    display: inline-block;
-}
-
-#bg1 img {
-    height: 200px;
-    width: 280px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    margin-left: 200px;
-}
-
-#bg2 img {
-    height: 200px;
-    width: 280px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    margin-left: 30px;
-}
-
-#bg3 img {
-    height: 200px;
-    width: 280px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    margin-left: 30px;
-}
 
 .checked {
     color: orange;
@@ -392,11 +342,13 @@ input[type="text"] {
     min-width: 300px;
     max-width: 500px;
     padding: 20px;
+    /* margin-top: -320px; */
   }
-
+ 
   .text-section h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    font-weight: 600;
   }
 
   .text-section p {
@@ -559,3 +511,57 @@ input[type="text"] {
         box-shadow: none;
     }
 }
+/* brand */
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1.5em;
+    font-weight: bold;
+  }
+
+  .wrapper {
+    width: 90%;
+    max-width: 1536px;
+    margin: 2rem auto;
+    position: relative;
+    height: 150px;
+    overflow: hidden;
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  }
+
+  @keyframes scrollLeft {
+0% {
+  transform: translateX(0);
+}
+100% {
+  transform: translateX(-50%);
+}
+}
+
+.scroller {
+display: flex;
+gap: 20px;
+width: max-content;
+animation: scrollLeft 25s linear infinite;
+will-change: transform;
+}
+
+  .item {
+    min-width: 220px;
+    height: 130px;
+    border: 2px solid #024b9a;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }

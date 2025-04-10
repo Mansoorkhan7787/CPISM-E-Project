@@ -103,10 +103,18 @@ function decreament() {
 }
 
 
+// document.addEventListener("DOMContentLoaded", function () {
+//     let text = document.getElementById("animated-text");
+//     text.style.opacity = "1";
+//     text.style.transform = "translateY(360)";
+// });
 document.addEventListener("DOMContentLoaded", function () {
     let text = document.getElementById("animated-text");
-    text.style.opacity = "1";
+    if (text) {
+        text.style.opacity = "1";
     text.style.transform = "translateY(360)";
+    } 
+    
 });
 
 

@@ -96,13 +96,21 @@
             </div>
             <div class="col-lg-6 col-md-6" data-aos="zoom-in" data-aos-duration="2000">
                 <div class="contact-form p-4">
-                    <form>
+                    <form autocomplete="on">
+                        <input type="text" class="form-control mb-3" placeholder="Your Name" name="name" autocomplete="name" required>
+                        <input type="email" class="form-control mb-3" placeholder="Your Email" name="email" autocomplete="email" required>
+                        <input type="text" class="form-control mb-3" placeholder="Subject" name="subject" autocomplete="off" required>
+                        <textarea class="form-control mb-3" rows="4" placeholder="Message" name="message" autocomplete="off" required></textarea>
+                        <button type="submit" class="btn btn-warning">Send Message</button>
+                      </form>
+                      
+                    <!-- <form>
                         <input type="text" class="form-control mb-3" placeholder="Your Name" required>
                         <input type="email" class="form-control mb-3" placeholder="Your Email" required>
                         <input type="text" class="form-control mb-3" placeholder="Subject" required>
                         <textarea class="form-control mb-3" rows="4" placeholder="Message" required></textarea>
                         <button type="submit" class="btn btn-warning">Send Message</button>
-                    </form>
+                    </form> -->
                 </div>
             </div>
         </div>
@@ -162,7 +170,7 @@
         alert("Message sent successfully!");
         contactForm.reset(); 
     });
-
+    
     document.querySelectorAll('.social-icon').forEach(icon => {
         icon.addEventListener('mouseover', function () {
             this.style.setProperty('--hover-color', this.getAttribute('data-color'));
