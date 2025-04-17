@@ -217,7 +217,7 @@ border: none;
 .value-item {
     margin: 15px 0;
 }
-
+/* 
 .Icons {
     color: orangered;
     display: flex;
@@ -267,4 +267,35 @@ border: none;
         margin-right: 0;
         margin-left: 30px;
     }
+} */
+
+
+
+.Icons {
+  color: orangered;
+  display: flex;
+  margin-left: 15px;
+}
+.Icons:hover {
+  color: black;
+}
+.social-icon {
+  font-size: 20px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.social-icon:hover {
+  transform: scale(1.2);
+  color: var(--hover-color) !important;
+}
+@media (max-width: 768px) {
+  .col-md-4 {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .card:hover {
+      transform: none;
+      box-shadow: none;
+  }
 }

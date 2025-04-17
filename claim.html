@@ -88,7 +88,7 @@
                     <option value="+91">🇮🇳 +91</option>
                     <option value="+1">UAE +97</option>
                 </select>
-                <input type="tel" class="form-control form-control-custom" id="phone" placeholder="Phone Number" required>
+                <input type="tel" class="form-control form-control-custom" id="phone" placeholder="Phone Number" maxlength="11" required>
             </div>
         
             <div class="date-container">
@@ -108,11 +108,20 @@
             </div>
             
         
-            <div class="mb-3">
+            <!-- <div class="mb-3">
                 <label class="file-upload-custom">
                     <input type="file" id="uploadFile" required>
                     <span><i class="bi bi-paperclip me-2"></i>Upload Product Images</span>
                 </label>
+            </div> -->
+            <div class="mb-3">
+                <label class="file-upload-custom d-block">
+                    <input type="file" id="uploadFile" accept="image/*" multiple required class="d-none">
+                    <span class="btn btn-outline-primary"><i class="bi bi-paperclip me-2"></i>Upload Product Images</span>
+                </label>
+                
+                <!-- Image preview container -->
+                <div id="imagePreview" class="d-flex flex-wrap gap-3 mt-3"></div>
             </div>
             
             
@@ -193,6 +202,51 @@
                 this.style.setProperty('--hover-color', this.getAttribute('data-color'));
             });
         });
+
+
+        document.getElementById('uploadFile').addEventListener('change', function(event) {
+    const previewContainer = document.getElementById('imagePreview');
+    previewContainer.innerHTML = ''; // Clear previous previews
+    
+    const files = event.target.files;
+    
+    if (files) {
+        Array.from(files).forEach(file => {
+            if (file.type.match('image.*')) {
+                const reader = new FileReader();
+                
+                reader.onload = function(e) {
+                    const previewDiv = document.createElement('div');
+                    previewDiv.className = 'preview-image-container position-relative';
+                    previewDiv.style.width = '120px';
+                    previewDiv.style.height = '120px';
+                    
+                    const img = document.createElement('img');
+                    img.src = e.target.result;
+                    img.className = 'img-thumbnail h-100 w-100 object-fit-cover';
+                    img.alt = 'Preview';
+                    
+                    const removeBtn = document.createElement('button');
+                    removeBtn.innerHTML = '&times;';
+                    removeBtn.className = 'btn btn-danger btn-sm position-absolute top-0 end-0 rounded-circle p-0';
+                    removeBtn.style.width = '24px';
+                    removeBtn.style.height = '24px';
+                    removeBtn.style.transform = 'translate(30%, -30%)';
+                    removeBtn.onclick = function() {
+                        previewDiv.remove();
+                        // Optional: Remove file from input.files
+                    };
+                    
+                    previewDiv.appendChild(img);
+                    previewDiv.appendChild(removeBtn);
+                    previewContainer.appendChild(previewDiv);
+                }
+                
+                reader.readAsDataURL(file);
+            }
+        });
+    }
+});
     </script>
 </body>
 </html>

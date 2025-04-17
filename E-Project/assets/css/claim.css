@@ -281,3 +281,14 @@ body {
       box-shadow: none;
   }
 }
+
+
+.preview-image-container {
+  transition: all 0.3s ease;
+}
+.preview-image-container:hover {
+  transform: scale(1.05);
+}
+.object-fit-cover {
+  object-fit: cover;
+}

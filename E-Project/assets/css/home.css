@@ -565,3 +565,34 @@ will-change: transform;
     max-height: 100%;
     object-fit: contain;
   }
+ 
+
+.testimonial-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+.quote {
+    font-style: italic;
+    color: #555;
+}
+
+
+
+
+.partner-logo-container {
+    transition: all 0.3s ease;
+    border: 1px solid #f0f0f0;
+}
+
+.partner-logo-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1) !important;
+}
+
+.partner-logo-container img {
+    filter: none !important; /* Ensures colors show properly */
+    object-fit: contain;
+}
