@@ -79,13 +79,37 @@
     <div class="container text-center fw-bold py-4">
         <h1>GALLERY SECTION</h1>
     </div>
+
+       <div class="container">
+        <div class="text-section">
+            <h1>Pure Smart Lighting</h1>
+            <p>
+                Innovators of minimalist suspensions, scalable light systems, and architectural lighting that plasters
+                into 5/8" thick drywall, PureEdge Lighting creates lighting systems and fixtures as tools for architects
+                and
+                designers to unleash their own creativity.
+            </p>
+            <div class="buttons">
+                <a href="./gallery.html" class="btn btn-primary">Shop now</a>
+                <a href="https://www.lightology.com" class="btn btn-secondary">Shop By Category</a>
+            </div>
+        </div>
+        <div class="image-section mt-4">
+            <img src="https://www.lightology.com/img/systems/landing/Systems-PureSmart_44.jpg" alt="Lighting Design"
+                class="img-fluid">
+        </div>
+    </div>
     
     <div class="container">
         <div class="filter-buttons text-center">
-            <button onclick="filterSelection('all')">All</button>
+            <button>LED Lights</button>
+            <button>Fanci Lights</button>
+            <button >Designing Lights</button>
+            <button >Branded Lights</button>
+            <!-- <button onclick="filterSelection('all')">All</button>
             <button onclick="filterSelection('fashion')">Fashion</button>
             <button onclick="filterSelection('portrait')">Portrait</button>
-            <button onclick="filterSelection('juventine')">Juventine</button>
+            <button onclick="filterSelection('juventine')">Juventine</button> -->
         </div>
         
         <div class="row gallery">
@@ -434,15 +458,15 @@
                 <p><i class="bi bi-telephone me-2 "></i> +92 123 456 789</p>
                 <p><i class="bi bi-envelope me-2"></i> info@brightworld.com</p>
                 <h5>Follow Us</h5>
-                <a href="#" class="social-icon text-white me-3" data-color="#3b5998"><i
+                <a href="./login.html" class="social-icon text-white me-3" data-color="#3b5998"><i
                         class="bi bi-facebook"></i></a>
-                <a href="#" class="social-icon text-white me-3" data-color="#1DA1F2"><i
+                <a href="./login.html" class="social-icon text-white me-3" data-color="#1DA1F2"><i
                         class="bi bi-twitter"></i></a>
-                <a href="#" class="social-icon text-white me-3" data-color="#E4405F"><i
+                <a href="./login.html" class="social-icon text-white me-3" data-color="#E4405F"><i
                         class="bi bi-instagram"></i></a>
-                <a href="#" class="social-icon text-white me-3" data-color="#0A66C2"><i
+                <a href="./login.html" class="social-icon text-white me-3" data-color="#0A66C2"><i
                         class="bi bi-linkedin"></i></a>
-                <a href="tel:+92123456789" class="social-icon text-white me-3" data-color="#25D366"><i
+                <a href="./login.html" class="social-icon text-white me-3" data-color="#25D366"><i
                         class="bi bi-telephone"></i></a>
             </div>
         </div>
@@ -460,27 +484,27 @@ document.querySelectorAll('.social-icon').forEach(icon => {
       this.style.setProperty('--hover-color', this.getAttribute('data-color'));
     });
   });  
-  function filterSelection(category) {
-    // Get all filterable items
-    const items = document.getElementsByClassName('filter-item');
+//   function filterSelection(category) {
+//     // Get all filterable items
+//     const items = document.getElementsByClassName('filter-item');
     
-    // Show all items if "all" is selected
-    if (category === "all") {
-        for (let item of items) {
-            item.style.display = "block";
-        }
-        return;
-    }
+//     // Show all items if "all" is selected
+//     if (category === "all") {
+//         for (let item of items) {
+//             item.style.display = "block";
+//         }
+//         return;
+//     }
     
-    // Hide/show items based on category
-    for (let item of items) {
-        if (item.classList.contains(category)) {
-            item.style.display = "block";
-        } else {
-            item.style.display = "none";
-        }
-    }
-} 
+//     // Hide/show items based on category
+//     for (let item of items) {
+//         if (item.classList.contains(category)) {
+//             item.style.display = "block";
+//         } else {
+//             item.style.display = "none";
+//         }
+//     }
+// } 
     </script>
     <script src="./E-Project/assets/Bootstrap/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
