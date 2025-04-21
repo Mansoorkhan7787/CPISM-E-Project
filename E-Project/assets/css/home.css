@@ -133,6 +133,10 @@ body {
         display: inline-block;
     }
 }
+.nav-item .subscribe-btn-custom:hover {
+    color: black;
+    background-color: white;
+  }
 
 .swiper {
     margin-top: 40px;

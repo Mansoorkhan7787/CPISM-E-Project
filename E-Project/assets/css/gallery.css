@@ -133,10 +133,15 @@ body {
         display: inline-block;
     }
 }
+.nav-item .subscribe-btn-custom:hover {
+    color: black;
+    background-color: white;
+  }
 
   header img {
     height: 400px;
     width: 100%;
+    margin-top: -13px;
   }
   header {
     margin-top: 50px;

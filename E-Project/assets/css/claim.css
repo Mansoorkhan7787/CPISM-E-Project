@@ -114,6 +114,10 @@ body {
       display: inline-block;
   }
 }
+.nav-item .subscribe-btn-custom:hover {
+  color: black;
+  background-color: white;
+}
 
 .form-container {
   max-width: 800px;
@@ -291,4 +295,7 @@ body {
 }
 .object-fit-cover {
   object-fit: cover;
+}
+footer {
+  margin-top: 100px;
 }

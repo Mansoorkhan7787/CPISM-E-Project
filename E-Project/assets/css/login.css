@@ -115,6 +115,10 @@ body {
       display: inline-block;
   }
 }
+.nav-item .subscribe-btn-custom:hover {
+  color: black;
+  background-color: white;
+}
 
 body {
     background-repeat: no-repeat;
